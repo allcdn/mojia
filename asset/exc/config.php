@@ -408,7 +408,7 @@ return array (
       'name' => '视频广告',
       'tips' => '广告倒计时',
       'time' => '5',
-      'link' => 'https://mojia.amujie.com',
+      'link' => 'http://www.banyundog.com',
       'group' => '',
     ),
     'high' => 
@@ -1187,8 +1187,8 @@ return array (
     'copy' => 
     array (
       'name' => '版权设置',
-      'tips' => 'Mojia',
-      'link' => 'https://mojia.amujie.com',
+      'tips' => '搬运狗',
+      'link' => 'http://www.banyundog.com',
     ),
     'head' => 
     array (

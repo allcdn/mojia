@@ -171,20 +171,20 @@ function moJiaOptions() {
 			die(json_encode(array('msg' => '保存失败')));
 		}
 	} elseif (isset($_POST['news'])) {
-		$path = '../../../';
-		$name = 'mojia-' . $_POST['news'] . '.zip';
-		$href = moJiaPath('down') . $name . '?v=' . time();
-		if (!moJiaIsExists($href)) {
-			die(json_encode(array('code' => '0', 'msg' => '未找到到最新版主题文件')));
-		}
-		if (!moJiaDownload($href, $path, $name)) {
-			die(json_encode(array('code' => '0', 'msg' => '主题下载失败')));
-		}
-		if (moJiaUnzip($path, $name, @$_POST['pass'])) {
-			die(json_encode(array('code' => '1', 'msg' => '主题升级成功')));
-		} else {
-			die(json_encode(array('code' => '0', 'msg' => '主题解压失败')));
-		}
+		//$path = '../../../';
+		//$name = 'mojia-' . $_POST['news'] . '.zip';
+		//$href = moJiaPath('down') . $name . '?v=' . time();
+		//if (!moJiaIsExists($href)) {
+		//	die(json_encode(array('code' => '0', 'msg' => '未找到到最新版主题文件')));
+		//}
+		//if (!moJiaDownload($href, $path, $name)) {
+			die(json_encode(array('code' => '0', 'msg' => '别TM的在线升级了，升级了就废了。。。')));
+		//}
+		//if (moJiaUnzip($path, $name, @$_POST['pass'])) {
+		//	die(json_encode(array('code' => '1', 'msg' => '主题升级成功')));
+		//} else {
+	//		die(json_encode(array('code' => '0', 'msg' => '主题解压失败')));
+	//	}
 	} else {
 		die(json_encode(array('msg' => '执行失败')));
 	}

