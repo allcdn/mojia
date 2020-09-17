@@ -77,11 +77,11 @@ function() {
 					return layui['jquery']('.mo-keys-tips')['text'](ao['msg']),
 					0 != ao['code'] && void(location['href'] = magic['path'])
 				})['error'](function(ao) {
-					layui['jquery']('.mo-keys-tips')['text']('授权失败：' + ao['status'] + ('，请联系QQ1570457334'))
+					layui['jquery']('.mo-keys-tips')['text']('授权失败：' + ao['status'] + ('，请输入正确的KEY'))
 				},
 				'json')
 			})['error'](function(x) {
-				layui['jquery']('.mo-keys-tips')['text']('授权失败：' + x['status'] + ('，请联系QQ980166869'))
+				layui['jquery']('.mo-keys-tips')['text']('授权失败：' + x['status'] + ('，请输入正确的KEY'))
 			},
 			'json') : (layui['jquery']('.mo-keys-tips')['text']('主题文件被修改过,请还原后再进行授权'), !1)
 		})
