@@ -11,7 +11,7 @@ return array (
     ),
     'logo' => 
     array (
-      'src' => 'https://cdn.jsdelivr.net/gh/amujie/mojia@master/asset/img/logo.png',
+      'src' => 'https://cdn.jsdelivr.net/gh/allcdn/mojia@master/asset/img/logo.png',
       'link' => '/',
       'type' => 'logo',
       'desktop' => 'on',
@@ -382,7 +382,7 @@ return array (
     'chat' => 
     array (
       'name' => '扫码观看',
-      'pics' => 'https://cdn.jsdelivr.net/gh/amujie/mojia@master/asset/img/favicon.png',
+      'pics' => 'https://cdn.jsdelivr.net/gh/allcdn/mojia@master/asset/img/favicon.png',
       'send' => '关键词1',
       'code' => '长城',
       'type' => '',
@@ -390,7 +390,7 @@ return array (
     'logo' => 
     array (
       'name' => '视频标志',
-      'pics' => 'https://cdn.jsdelivr.net/gh/amujie/mojia@master/asset/img/logo.png',
+      'pics' => 'https://cdn.jsdelivr.net/gh/allcdn/mojia@master/asset/img/logo.png',
       'state' => '0',
       'width' => '25%',
       'height' => '60px',
@@ -400,7 +400,7 @@ return array (
     'cover' => 
     array (
       'name' => '视频封面',
-      'pics' => 'https://cdn.jsdelivr.net/gh/amujie/mojia@master/asset/img/loading.gif',
+      'pics' => 'https://cdn.jsdelivr.net/gh/allcdn/mojia@master/asset/img/loading.gif',
       'state' => '1',
     ),
     'advs' => 
@@ -408,7 +408,7 @@ return array (
       'name' => '视频广告',
       'tips' => '广告倒计时',
       'time' => '5',
-      'link' => 'http://www.banyundog.com',
+      'link' => 'http://www.baidu.com',
       'group' => '',
     ),
     'high' => 
@@ -1093,7 +1093,7 @@ return array (
     'cdns' =>
     array (
       'name' => '静态加速',
-      'link' => 'https://cdn.jsdelivr.net/gh/amujie/mojia',
+      'link' => 'https://cdn.jsdelivr.net/gh/allcdn/mojia',
       'local' => '0',
 	  'debug' => '1',
       'state' => '1',
@@ -1116,7 +1116,7 @@ return array (
       'tips' => '关注微信公众号,追剧不迷路',
       'link' => '',
       'state' => '0',
-      'pics' => 'https://cdn.jsdelivr.net/gh/amujie/mojia@master/asset/img/favicon.png',
+      'pics' => 'https://cdn.jsdelivr.net/gh/allcdn/mojia@master/asset/img/favicon.png',
     ),
     'share' => 
     array (
@@ -1126,12 +1126,12 @@ return array (
       'state' => '1',
       'apis' => '',
       'regex' => '/(.*)/i',
-      'image' => 'https://cdn.jsdelivr.net/gh/amujie/mojia@master/asset/img/image.jpg',
+      'image' => 'https://cdn.jsdelivr.net/gh/allcdn/mojia@master/asset/img/image.jpg',
     ),
     'icon' => 
     array (
       'name' => '网站标志',
-      'pics' => 'https://cdn.jsdelivr.net/gh/amujie/mojia@master/asset/img/favicon.png',
+      'pics' => 'https://cdn.jsdelivr.net/gh/allcdn/mojia@master/asset/img/favicon.png',
     ),
     'lazy' => 
     array (
@@ -1187,8 +1187,8 @@ return array (
     'copy' => 
     array (
       'name' => '版权设置',
-      'tips' => '搬运狗',
-      'link' => 'http://www.banyundog.com',
+      'tips' => '百度',
+      'link' => 'http://www.baidu.com',
     ),
     'head' => 
     array (

@@ -18,17 +18,17 @@ layui.define(['jquery'], function(exports) {
 					html += '</a></td></tr></tbody></table>';
 				});
 				html += '</tbody></table>';
-				//$('.mo-unit-table').before(html);
+				$('.mo-unit-table').before(html);
 			},
 			'info': [{
-				'name': '',
-				'link': '',
-				'pics': '',
-				'tips': '',
-				'name1': '',
-				'link1': '',
-				'pics1': '',
-				'tips1': ''
+				'name': '无水印切片百度云资源采集站！',
+				'link': 'http://gg22.bdyunzy.com/',
+				'pics': 'http://img.lingxinfm.com/images/2020-08/bdzy.gif',
+				'tips': '无水印切片百度云资源采集站',
+				'name1': '搬运狗网站（www.banyundog.com）推荐无水印切片百度云资源采集站！',
+				'link1': 'http://www.banyundog.com/',
+				'pics1': 'http://img.lingxinfm.com/images/2020-08/bygadhf.PNG',
+				'tips1': '搬运狗网站（www.banyundog.com）'
 			}]
 		},
 		'browse': {
