@@ -10,10 +10,6 @@
 - 主题名称：魔加 1.16（苹果CMS v10版）
 - 主题作者：大橙子
 - 作者寄语：用心做模板,让你体验不一样的苹果CMS
-- 联系作者：[QQ:980166869](https://wpa.qq.com/msgrd?v=3&uin=980166869&site=qq&menu=yes)
-- 作者首页：[http://www.banyundog.com](http://www.banyundog.com)
-- 加群链接：[https://jq.qq.com/?_wv=1027&k=OTvjBn7F](https://jq.qq.com/?_wv=1027&k=OTvjBn7F)
-- 扣群号码：836809823
 - 静态加速：[https://cdn.jsdelivr.net/gh/amujie/mojia@master/](https://cdn.jsdelivr.net/gh/amujie/mojia@master/)
 
 #### 主题简介
